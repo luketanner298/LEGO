@@ -277,6 +277,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: FrankensteinModel
       objectReference: {fileID: 0}
+    - target: {fileID: 6463843581177151445, guid: 0febed5df6816da4fb6491ea4feecbf7,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6463843581177151445, guid: 0febed5df6816da4fb6491ea4feecbf7,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6463843581177151445, guid: 0febed5df6816da4fb6491ea4feecbf7,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6463843581177151445, guid: 0febed5df6816da4fb6491ea4feecbf7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 360
+      objectReference: {fileID: 0}
+    - target: {fileID: 6463843581177151445, guid: 0febed5df6816da4fb6491ea4feecbf7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 65702495048144492, guid: 0febed5df6816da4fb6491ea4feecbf7, type: 3}

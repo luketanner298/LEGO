@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Coins
   m_EditorClassIdentifier: 
   Name: Coins
-  InitialValue: 0
+  InitialValue: 1
   UseUI: 1
   UI: {fileID: 8322339850511969721, guid: 7941d64ed4b764e8cb4f6843b2c826cc, type: 3}
