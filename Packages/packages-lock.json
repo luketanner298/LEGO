@@ -157,15 +157,15 @@
       "hash": "d8bcbe928c8b416627c549a7dbc01ad2b06e51b3"
     },
     "com.unity.lego.modelimporter": {
-      "version": "https://github.com/purna/com.unity.lego.modelimporter-8.0.1.git",
+      "version": "8.0.1",
       "depth": 0,
-      "source": "git",
+      "source": "registry",
       "dependencies": {
-        "com.unity.render-pipelines.universal": "12.1.2",
         "com.unity.textmeshpro": "3.0.6",
-        "com.unity.lego.materials": "3.0.0"
+        "com.unity.lego.materials": "3.0.0",
+        "com.unity.render-pipelines.universal": "12.1.2"
       },
-      "hash": "cd30ffb222178dab5eb38d71587ef52631021aeb"
+      "url": "https://packages.unity.com"
     },
     "com.unity.mathematics": {
       "version": "1.2.6",
