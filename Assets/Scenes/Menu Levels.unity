@@ -2869,8 +2869,18 @@ PrefabInstance:
       objectReference: {fileID: 23689783}
     - target: {fileID: 362016193072066074, guid: e4485ec02a9094732bad5466dc656533,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 995066974}
+    - target: {fileID: 362016193072066074, guid: e4485ec02a9094732bad5466dc656533,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 362016193072066074, guid: e4485ec02a9094732bad5466dc656533,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: LoadScene
       objectReference: {fileID: 0}
     - target: {fileID: 362016193072066074, guid: e4485ec02a9094732bad5466dc656533,
         type: 3}
@@ -2891,6 +2901,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Menu Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 6308235595963573889, guid: e4485ec02a9094732bad5466dc656533,
+        type: 3}
+      propertyPath: m_text
+      value: Intro
       objectReference: {fileID: 0}
     - target: {fileID: 6308235595963573889, guid: e4485ec02a9094732bad5466dc656533,
         type: 3}
@@ -3029,6 +3044,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8636985912479083502, guid: e4485ec02a9094732bad5466dc656533,
+        type: 3}
+      propertyPath: sceneName
+      value: Menu Intro
+      objectReference: {fileID: 0}
     - target: {fileID: 9148624176901760496, guid: e4485ec02a9094732bad5466dc656533,
         type: 3}
       propertyPath: m_Sprite
@@ -3038,7 +3058,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2445384823003873639, guid: e4485ec02a9094732bad5466dc656533,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 995066974}
   m_SourcePrefab: {fileID: 100100000, guid: e4485ec02a9094732bad5466dc656533, type: 3}
 --- !u!224 &995066972 stripped
 RectTransform:
@@ -3046,6 +3070,25 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 995066971}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &995066973 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2445384823003873639, guid: e4485ec02a9094732bad5466dc656533,
+    type: 3}
+  m_PrefabInstance: {fileID: 995066971}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &995066974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995066973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a98779c1afa4243edb74ddfb76dfb6dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Menu Intro
 --- !u!1 &1065678305 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4372306540988433292, guid: 9c49647cd61e54468858c05967af5bdc,
