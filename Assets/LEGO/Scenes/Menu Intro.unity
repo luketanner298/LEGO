@@ -2237,12 +2237,12 @@ PrefabInstance:
     - target: {fileID: 6882127977069919728, guid: 7caa54d5f697243d5be070772d803bab,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6882127977069919728, guid: 7caa54d5f697243d5be070772d803bab,
         type: 3}
       propertyPath: OnCustomClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6882127977069919728, guid: 7caa54d5f697243d5be070772d803bab,
         type: 3}
@@ -2258,7 +2258,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 23689783}
     - target: {fileID: 6882127977069919728, guid: 7caa54d5f697243d5be070772d803bab,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -2278,8 +2278,7 @@ PrefabInstance:
         type: 3}
       propertyPath: OnCustomClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1773018557833402797, guid: 617c19804646f4cf6a349de4e3144281,
-        type: 3}
+      objectReference: {fileID: 2397430219992239013}
     - target: {fileID: 6882127977069919728, guid: 7caa54d5f697243d5be070772d803bab,
         type: 3}
       propertyPath: OnCustomClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -2308,7 +2307,7 @@ PrefabInstance:
     - target: {fileID: 6882127977069919728, guid: 7caa54d5f697243d5be070772d803bab,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: 
+      value: Unity.LEGO.UI.UIAudio, Unity.LEGO.UI
       objectReference: {fileID: 0}
     - target: {fileID: 6882127977069919728, guid: 7caa54d5f697243d5be070772d803bab,
         type: 3}
@@ -2417,6 +2416,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7caa54d5f697243d5be070772d803bab, type: 3}
+--- !u!114 &2397430219992239013 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8851030426209193709, guid: 7caa54d5f697243d5be070772d803bab,
+    type: 3}
+  m_PrefabInstance: {fileID: 2397430219992239012}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a98779c1afa4243edb74ddfb76dfb6dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3688456817296423506
 PrefabInstance:
   m_ObjectHideFlags: 0
