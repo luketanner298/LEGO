@@ -107,10 +107,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Canvas - Intro (1)
   - m_Version: 1
-    m_Start: 12.433333333333335
+    m_Start: 11.133333333333333
     m_ClipIn: 0.5833333333333357
     m_Asset: {fileID: 5693035564684802693}
-    m_Duration: 7.333333333333332
+    m_Duration: 8.633333333333333
     m_TimeScale: 1
     m_ParentTrack: {fileID: -7733441043616083312}
     m_EaseInDuration: 0
